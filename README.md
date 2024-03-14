@@ -49,7 +49,7 @@ rvmde/
 
 Please follow external repos (https://github.com/lochenchou/DORN_radar) for Height Extension and (https://github.com/longyunf/rc-pda) for RVMDE with MER's to generte the dataset for training and evaluation.
 
-### Evaluation for RVMDE on nuScenes
+### Evaluation for RVMDE-II on nuScenes
 
 Download [pre-trained weights](https://drive.google.com/file/d/1VKVg63d5UMNjc2busvdM23rXrs8TZb-X/view?usp=sharing)
 
@@ -63,7 +63,7 @@ jupyter notebook
 Evaluate_rvmde.ipynb     #Test
 ```
 
-## RVMDE with MER's Evalution
+## RVMDE-II with MER's Evalution
 
 Will be updated soon!!!
 
