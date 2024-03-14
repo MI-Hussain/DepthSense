@@ -1,6 +1,7 @@
-# RVMDE
+# RVMDE-II
 
-Official implementation of "RVMDE : Radar Validated Monocular Depth Estimation for Robotics", https://arxiv.org/abs/2109.05265v1.
+Official implementation of "Radar Validated Monocular Depth Completion for
+2 Robotics and Autonomous Driving", https://arxiv.org/abs/2109.05265v1.
 
 
 ## :wrench: Dependencies and Installation
