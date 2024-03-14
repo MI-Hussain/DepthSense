@@ -39,7 +39,7 @@ rvmde/
                 v1.0-trainval/
     dataloader/
     list/
-    result/
+    result/ download and copy the pretrained model here
     model/                   				   	        
                    	     				
 ```
