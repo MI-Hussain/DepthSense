@@ -1,5 +1,5 @@
 # RVMDE-II
-
+This is the official updated version of RVMDE - 
 Official implementation of "Radar Validated Monocular Depth Completion for
 2 Robotics and Autonomous Driving", https://arxiv.org/abs/2109.05265v1.
 
