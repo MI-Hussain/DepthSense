@@ -14,7 +14,7 @@ Official implementation of "Radar Validated Monocular Depth Completion for
 1. Clone repo
 
     ```bash
-    git clone https://github.com/MI-Hussain/RVMDE
+    git clone https://github.com/MI-Hussain/RVMDE-II
     ```
 
 1. Install dependent packages
