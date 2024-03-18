@@ -1,6 +1,9 @@
 # RVMDE-II
 This is the official updated version of RVMDE - 
-Official implementation of "Radar Validated Monocular Depth Completion for Robotics and Autonomous Driving", https://arxiv.org/abs/2109.05265v1.
+the official implementation of "Radar Validated Monocular Depth Completion for Robotics and Autonomous Driving," available at https://arxiv.org/abs/2109.05265v1.
+
+# Abstract
+Stereoscopy naturally captures depth perception in a scene, creating an involuntary phenomenon in our perception of the 3D world. However, achieving precise depth estimation requires meticulous calibration of binocular vision sensors. In contrast, a monocular camera offers a solution, albeit with reduced accuracy in depth estimation, particularly under challenging imaging conditions. Additionally, optical sensors encounter difficulties in collecting data in harsh environments, prompting the exploration of radar as an alternative source, providing coarse yet highly accurate signals. This study investigates the effectiveness of integrating radar-derived coarse signals with fine-grained data from a monocular camera for depth estimation across various environmental conditions. Furthermore, the study proposes a variant of the Feature Pyramid Network (VFPN) that leverages fine-grained image features at multiple scales while reducing the number of parameters. The VFPN combines image feature maps with radar data features extracted through a convolutional neural network. These concatenated hierarchical features are then used for depth prediction via ordinal regression. Experiments conducted on the nuScenes dataset demonstrate that our proposed architecture consistently outperforms competitors in quantitative evaluations. This is achieved while maintaining reduced parameter complexity and ensuring faster inference times. The results of our depth estimation suggest that these techniques could serve as a viable alternative to traditional stereo depth estimation in critical applications within the realms of robotics and self-driving vehicles. The code for this study can be found at: https://github.com/MI-Hussain/RVMDE-II.
 
 
 ## :wrench: Dependencies and Installation
