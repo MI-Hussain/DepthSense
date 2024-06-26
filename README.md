@@ -1,5 +1,5 @@
-# RVMDE-II
-This is the official updated version of RVMDE - 
+# DepthSense
+This is the official updated version of DepthSense - 
 the official implementation of "Radar Validated Monocular Depth Completion for Robotics and Autonomous Driving," available at https://arxiv.org/abs/2109.05265v1.
 
 # Abstract
@@ -16,7 +16,7 @@ Stereoscopy naturally captures depth perception in a scene, creating an involunt
 1. Clone repo
 
     ```bash
-    git clone https://github.com/MI-Hussain/RVMDE-II
+    git clone https://github.com/MI-Hussain/DepthSense
     ```
 
 1. Install dependent packages
