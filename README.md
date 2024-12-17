@@ -1,13 +1,13 @@
 # DepthSense
 This is the official updated version of DepthSense - 
-the official implementation of "Advancing Autonomous Driving: DepthSense with Radar and Spatial Attention" paper under revision.
-
+the official implementation of "Advancing Autonomous Driving: DepthSense with Radar and Spatial Attention".
+Depth perception is crucial for spatial understanding and has traditionally been achieved through stereoscopic imaging. However, the precision of depth estimation using stereoscopic methods depends on the accurate calibration of binocular vision sensors. Monocular cameras, while more accessible, often suffer from reduced accuracy, especially under challenging imaging conditions. Optical sensors, too, face limitations in adverse environments, leading researchers to explore radar technology as a reliable alternative. Although radar provides coarse but accurate signals, its integration with fine-grained monocular camera data remains underexplored. In this research, we propose DepthSense, a novel radar-assisted monocular depth enhancement approach. DepthSense employs an encoder-decoder architecture, a Radar Residual Network, feature fusion with a spatial attention mechanism, and an ordinal regression layer to deliver precise depth estimations. We conducted extensive experiments on the nuScenes dataset to validate the effectiveness of DepthSense. Our methodology not only surpasses existing approaches in quantitative performance but also reduces parameter complexity and inference times. Our findings demonstrate that DepthSense represents a significant advancement over traditional stereo methods, offering a robust and efficient solution for depth estimation in autonomous driving. By leveraging the complementary strengths of radar and monocular camera data, DepthSense sets a new benchmark in the field, paving the way for more reliable and accurate spatial perception systems.
 
 
 
 ## :wrench: Dependencies and Installation
 
-- Python >= 3.7 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
+- Python >= 3.9 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html))
 - [PyTorch >= 1.9](https://pytorch.org/)
 
 ### Installation
@@ -70,10 +70,11 @@ Will be updated soon!!!
 
 ## Citation
 ```plain
-@Article{hussain2021rvmde,
-    title={RVMDE : Radar Validated Monocular Depth Estimation for Robotics},
-    author={Muhammad Ishfaq Hussain, Muhammad Aasim Rafique and Moongu Jeon},
-    journal={arXiv:2109.05265v1},
-    year={2021}
-}
+@ARTICLE{10752892,
+  author={Hussain, Muhammad Ishfaq and Naz, Zubia and Rafique, Muhammad Aasim and Jeon, Moongu},
+  journal={IEEE Sensors Journal}, 
+  title={Advancing Autonomous Driving: DepthSense with Radar and Spatial Attention}, 
+  year={2024},
+  keywords={Feature Pyramid Network;Monocular Depth Estimation;Radar Data Augmentation;Sensor Fusion},
+  doi={10.1109/JSEN.2024.3493196}}
 ```
